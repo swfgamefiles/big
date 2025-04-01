@@ -53,6 +53,9 @@
         document.getElementById('pressMeButton').addEventListener('click', function() {
             // Show confetti
             confetti();
+            for (let i = 0; i < 5; i++) {
+                setTimeout(confetti();, 1500)
+            }
 
             // Show the message and image
             document.getElementById('message').style.display = 'block';
